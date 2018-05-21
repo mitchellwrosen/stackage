@@ -121,10 +121,7 @@ packages:
         - strict-types < 0 # BuildFailureException Process exited with ExitFailure 1: ./Setup build
 
     "Roman Gonzalez <open-source@roman-gonzalez.info> @roman":
-        - componentm
-        - componentm-devel
         - teardown
-        - etc
         - capataz < 0 # GHC 8.4 via base-4.11.0.0
 
     "Richard Cook <rcook@rcook.org> @rcook":
@@ -417,9 +414,10 @@ packages:
         - http-conduit
 
     "Omari Norman <omari@smileystation.com> @massysett":
-        - rainbow
+        - rainbow < 0 # build failure with GHC 8.4 https://github.com/massysett/rainbow/issues/6
         - rainbox < 0 # GHC 8.4 via rainbow
         - multiarg
+        - cartel < 0 # GHC 8.4 BuildFailureException Process exited with ExitFailure 1: ./Setup build
         - Earley
         - ofx
         - accuerr
@@ -1676,6 +1674,7 @@ packages:
     "Mitchell Rosen <mitchellwrosen@gmail.com> @mitchellwrosen":
         - safe-exceptions-checked
         - tasty-hspec < 0 # via tasty-quickcheck-0.10
+        - wai-middleware-travisci
 
     "Christiaan Baaij <christiaan.baaij@gmail.com> @christiaanb":
         - ghc-tcplugins-extra
@@ -3331,7 +3330,7 @@ packages:
 
     "ALeX Kazik <alex@kazik.de> @alexkazik":
         - qnap-decrypt
-
+        
     "Reed Oei <oei.reed@gmail.com> @ReedOei":
         - fuzzy-dates
 
