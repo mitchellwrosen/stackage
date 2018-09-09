@@ -1763,6 +1763,9 @@ packages:
     "Mitchell Rosen <mitchellwrosen@gmail.com> @mitchellwrosen":
         - safe-exceptions-checked
         - tasty-hspec
+        - termbox
+        - termbox-banana
+        - timer-wheel
         - wai-middleware-travisci
 
     "Christiaan Baaij <christiaan.baaij@gmail.com> @christiaanb":
