@@ -2091,6 +2091,7 @@ packages:
         - aeson-better-errors
 
     "Mitchell Rosen <mitchellwrosen@gmail.com> @mitchellwrosen":
+        - ki
         - tasty-hspec
         - termbox
         - text-ansi
