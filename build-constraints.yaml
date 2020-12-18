@@ -2095,7 +2095,6 @@ packages:
         - termbox
         - text-ansi
         - timer-wheel
-        - wai-middleware-travisci < 0 # via base-4.13.0.0
 
     "QBayLogic B.V. <devops@qbaylogic.com>":
         - ghc-tcplugins-extra
@@ -4949,7 +4948,6 @@ packages:
 
         # - type-list # GHC 8.2.1 via singletons 2.3
         # - vinyl-utils # BOUNDS vinyl 0.6
-        # - language-lua2 # https://github.com/mitchellwrosen/language-lua2/issues/4 # GHC 8.2.1
         - cassava
 
     # Packages without maintainers that cause issues,
