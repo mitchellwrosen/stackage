@@ -2238,6 +2238,7 @@ packages:
         - ki-unlifted
         - tasty-hspec
         - termbox
+        - termbox-banana
         - text-ansi
         - timer-wheel
 
